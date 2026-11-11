@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Visit Egypt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Noto+Kufi+Arabic:wght@400;600;700&family=Noto+Sans+Egyptian+Hieroglyphs&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/src/styles/index.css" />
+</head>
+<body>
+<header class="top" id="hdr">
+  <div class="wrap"><div class="bar">
+    <a class="logo" href="#home" aria-label="Visit Egypt home">
+      <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><circle cx="17" cy="11.500" r="6" fill="#D9A441"/><path d="M2.500 30 13 16.500l4 5 4-6L31.500 30Z" fill="currentColor"/></svg>
+      <span class="wm">Visit <i>Egypt</i></span><span class="proto" data-t="proto">Prototype</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main"></nav>
+    <div class="sp"></div>
+    <select class="sel" id="lang" aria-label="Language"><option value="en">EN</option><option value="ar">ع</option><option value="de">DE</option><option value="it">IT</option><option value="es">ES</option><option value="fr">FR</option><option value="ru">RU</option><option value="zh">中文</option></select>
+    <select class="sel cur" id="cur" aria-label="Currency"></select>
+    <a class="tripbtn" href="#trips" id="tripbtn"><svg class="i s" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="8" width="16" height="11.500" rx="2"/><path d="M9 8V5.500h6V8M4 13h16"/></svg><span data-t="trip">My trip</span><b id="tripcount" class="hide">0</b></a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><svg class="i s" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div></div>
+  <div class="mega" id="mega"><div class="wrap megain" id="megain"></div></div>
+  <div class="msheet" id="msheet"></div>
+</header>
+<div class="catbar" id="catbar" hidden><div class="wrap"><nav class="in" id="catin" aria-label="Services"></nav></div></div>
+<main id="app"></main>
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="col" style="gap:12px"><span class="logo"><svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><circle cx="17" cy="11.500" r="6" fill="#D9A441"/><path d="M2.500 30 13 16.500l4 5 4-6L31.500 30Z" fill="currentColor"/></svg><span class="wm">Visit <i>Egypt</i></span></span>
+        <p class="small" style="color:var(--on-night-m);max-width:36ch">Every part of an Egyptian holiday, searched properly, paid once and kept in one itinerary.</p>
+        <div><a href="#destinations">Egypt guide</a><a href="#concierge">Concierge</a><a href="#visa">Visa and essentials</a><a href="#trips">My trip</a></div></div>
+      <div id="fcols" style="display:contents"></div>
+    </div>
+    <div class="fine"><span data-t="demo"></span><span>An independent travel platform concept, not a government website. Every listing, price, rating and time slot is sample data. No booking or payment made here is real.</span><div class="credits" id="credits"></div></div>
+  </div>
+</footer>
+<a class="fab" href="#concierge" id="fab"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 3l1.900 5.600L18.500 10.500l-5.600 1.900L11 18l-1.900-5.600L3.500 10.500l5.600-1.900zM18.500 15l.9 2.100 2.100.9-2.100.9-.9 2.100-.9-2.100-2.100-.9 2.100-.9z"/></svg><span data-t="concierge">Concierge</span></a>
+<div class="scrim" id="scrim"></div>
+<div class="modal" id="modal"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="/src/app.ts"></script>
+</body>
+</html>

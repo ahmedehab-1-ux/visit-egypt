@@ -1,0 +1,17 @@
+{
+  "name": "visit-egypt",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Visit Egypt — Egypt's tourism super-site (flights, hotels, Nile cruises, tours, transfers, eSIM, tickets, dining, AI concierge). Clickable prototype.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11"
+  }
+}
