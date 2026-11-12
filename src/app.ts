@@ -754,7 +754,7 @@ function drawTabs(){const k=S.tab;$('#ctabs').innerHTML=VORDER.map(v=>`<button c
 function pageHome(){const fp=PKGS[0],ex=buildPlan({days:10,ad:2,ch:0,budget:'mid'});
   app.innerHTML=`
   <section class="hero"><img class="ph" src="${PHOTOS.hero.src}" alt="The Pyramids of Giza" fetchpriority="high" decoding="async" onerror="this.remove()">
-    <div class="wrap"><div class="eye" style="color:var(--gold-b)"><bdi>13 services · one checkout · one itinerary</bdi></div>
+    <div class="wrap"><div class="eye" style="color:var(--gold-b)"><bdi>13 services by H · one checkout · one itinerary</bdi></div>
       <h1 style="margin-top:14px">${t('hero2')}</h1><p class="lead">${esc(tx('hero2s'))}</p>
       <div class="meta"><span>Giza local time <b class="num">&nbsp;${fmtClock(cairoMinutes())}</b></span><span>Prices in ${Object.keys(CUR).length} currencies</span><span>8 languages, including Arabic</span></div></div>
   </section>

@@ -73,8 +73,8 @@ marsaalam:{name:'Marsa Alam',tag:'Turtles, dolphins and quiet southern reefs',lo
 };
 export const PHOTOS={
 hero:{src:'img/hero.jpg',credit:'Photo: kallerna / Wikimedia Commons (CC BY-SA 3.0)'},
-giza:{src:'img/giza.jpg',credit:'Photo: Jorge Láscar / Wikimedia Commons (CC BY 2.0)'},
-cairo:{src:'img/cairo.jpg',credit:'Photo: Vyacheslav Argenberg / vascoplanet.com (CC BY 4.0)'},
+giza:{src:'img/cairo.jpg',credit:'Photo: Jorge Láscar / Wikimedia Commons (CC BY 2.0)'},
+cairo:{src:'img/giza.jpg',credit:'Photo: Vyacheslav Argenberg / vascoplanet.com (CC BY 4.0)'},
 alexandria:{src:'img/alexandria.jpg',credit:'Photo: Vyacheslav Argenberg / vascoplanet.com (CC BY 2.0)'},
 siwa:{src:'img/siwa.jpg',credit:'Photo: Vyacheslav Argenberg / vascoplanet.com (CC BY 4.0)'},
 whitedesert:{src:'img/whitedesert.jpg',credit:'Photo: Vyacheslav Argenberg / vascoplanet.com (CC BY 4.0)'},
